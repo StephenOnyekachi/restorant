@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menue{
+    /* background-color: rgb(7, 7, 39); */
+    background: linear-gradient(to right, black, rgb(7, 7, 39), black);
+    width: 100%;
+    margin: 0px;
+    padding: 15px;
+    position: fixed;
+    z-index: 100;
+    margin-bottom: 20px;
+}
+.menue a{
+    color: white;
+    margin: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+}
+.menue a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid gold;
+}
+.menues{
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.services{
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+}
+.services1{
+    border: 1px solid gold;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    margin: 60px 30px;
+    background: linear-gradient(black, rgb(7, 7, 39), black);
+}
+.services1x{
+    height: 15%;
+    position: relative;
+    top: -5px;
+}
+.services1 h1{
+    color: white;
+    text-transform: capitalize;
+    position: relative;
+    top: -50px;
+}
+.services1 p{
+    color: rgb(80, 79, 79);
+    text-transform: capitalize;
+    text-align: justify;
+    position: relative;
+    top: -50px;
+}
+.services1 i{
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+    position: relative;
+    top: -40px;
+    background-color: black;
+}
+
+.service2{
+    padding: 30px;
+    margin-top: 20px;
+    background-color: rgb(14, 14, 66);
+}
+.service2 h3, .gallery h3, .testimony h3, .footer h3{
+    color: gold;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.service2 .item{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    border: 1px solid gold;
+    border-radius: 5px;
+    background: linear-gradient(rgb(14, 14, 66), black, rgb(14, 14, 66));
+    padding: 5px;
+}
+.service2 .item h4{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    background-color: rgb(14, 14, 66);
+    width: 50%;left: 5px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    padding: 5px;
+}
+.service2 .item p{
+    color: rgb(80, 79, 79);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.gallery{
+    padding: 20px;
+    text-align: center;
+    transition: calc(0.5s) ease-in-out;
+}
+.gallery .image:hover{
+    transform: scale(0.9);
+}
+.gallery img{
+    width: 100%;
+}
+.gallery .image{
+    border: 1px solid black;
+    width: 100%;
+    transition: calc(0.5s) ease-in-out;
+
+}
+.gallery .image span{
+    border: 1px solid black;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    padding: 5px;
+    left: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.897);
+    z-index: 10;
+    text-transform: capitalize;
+}
+
+.testimony{
+    background-color: rgb(14, 14, 66);
+    padding: 10px;
+}
+.testimony h4{
+    color: white;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+.testimony p{
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.testi{
+    background-color: rgba(4, 4, 19, 0.726);
+    padding: 10px;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.testi:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 1px 3px rgb(187, 187, 187);
+}
+.testi p{
+    text-transform: capitalize;
+    font-size: larger;
+}
+.testi span{
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+
+.formcontainner{
+    justify-content: center;
+    position: relative;
+    margin: 10px 400px;
+}
+.tablein{
+    width: 500px;
+    padding: 5px;
+}
+.form-control{
+    padding: 20px;
+    border-radius: 0px;
+    background-color: inherit;
+    text-transform: capitalize;
+    color: white;
+}
+.tablein button{
+    padding: 10px;
+    border-radius: 0px;
+    background-color: white;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+
+.footer{
+    text-align: center;
+}
+.footer b{
+    text-transform: capitalize;
+}
+.footer span{
+    padding-top: 20px;
+    padding: 20px;
+}
+
+.more{
+    display: none;
+}
+
+.login{
+    background: linear-gradient(to right, black, rgb(7, 7, 39), black);
+    height: 100vh;
+}
+.login3{
+    background: linear-gradient(to right, black, rgb(7, 7, 39), black);
+    height: auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+.login1{
+    margin: 90px 450px;
+}
+.login1 h4{
+    color: gold;
+    text-transform: capitalize;
+    margin: 5px;
+}
+.login2{
+    margin: 100px 10px;
+}
+.menue span{
+    color: rgb(255, 2, 2);
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.menue h4{
+    color: gold;
+    text-transform: capitalize;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.custormers{
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 10px;
+}
+.custormers label{
+    color: gold;
+    text-transform: capitalize;
+}
+.custormers p{
+    color: white;
+    text-transform: capitalize;
+}
+.deliver i{
+    float: right;
+}
+.search{
+    text-align: center;
+    background-color: transparent;
+}
+.search input{
+    outline: none;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: transparent;
+}
+.search button{
+    outline: none;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.alerm{
+    background-color: white;
+    padding: 20px;
+}
+.alerm button{
+    float: right;
+    padding: 2px;
+}
+.delete{
+    float: right;
+}
+.allitems{
+    margin-top: -200px;
+    position: relative;
+    border: 1px solid white;
+    padding: 5px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+
+
